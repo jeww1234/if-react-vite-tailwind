@@ -19,3 +19,12 @@ less than 59 : F
 한 지원자가 우리 회사에 지원을 했다. 지원자가 사용 가능한 스킬은 배열에 제공이 된다.
 
 # 아 어제 했어야 했는데 잠깐 잔다는 게...
+
+## Example 컴포넌트 양식이 겹치는 부분이 매우 많은데 차후 수정
+
+## 신기했던 코드
+```jsx
+import { useRef } from "react";
+const inputRef = useRef(null);
+<input type="number" ref={inputRef} />
+```
